@@ -262,7 +262,7 @@ inputMensaje.addEventListener('input', () => {
     mensajeValido = true;
 });
 
-// Botón Enviar - Activar solo cuando todos los campos están llenos
+// Botón Enviar - Activar solo cuando todos los campos están llenos y con sus parametros validos.
 const form = document.getElementById('section-contacto__form');
 const enviarBtn = document.querySelector('.section-contacto__container-campos__boton');
 let emailValido = false;

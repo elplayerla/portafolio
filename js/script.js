@@ -40,25 +40,28 @@ inputNombre.addEventListener('blur', () => {
     indicadorNombre.style.height = originalIndicadorHeight;
 });
 
-// Campo Nombre - Validacion de entradas
-inputNombre.addEventListener('blur', () => {
+// Campo Nombre - Validacion de entradas en tiempo real
+inputNombre.addEventListener('input', () => {
     const nombreValue = inputNombre.value.trim();
     const errorContainer = document.getElementById('error-nombre');
   
     // Validar si el campo está vacío
     if (!nombreValue) {
       errorContainer.innerText = 'El nombre es requerido.';
+      nombreValido = false;
       return;
     }
   
     // Validar si el campo excede los 50 caracteres
     if (nombreValue.length > 50) {
       errorContainer.innerText = 'No puede tener más de 50 caracteres.';
+      nombreValido = false;
       return;
     }
   
     // Si todas las validaciones pasaron, vaciar el mensaje de error
     errorContainer.innerText = '';
+    nombreValido = true;
 });
 
 
@@ -99,17 +102,18 @@ inputEmail.addEventListener('blur', () => {
     indicadorEmail.style.height = originalIndicadorHeight;
 });
 
-// Campo E-mail - Validacion de entradas
-inputEmail.addEventListener('blur', () => {
+// Campo E-mail - Validacion de entradas en tiempo real
+inputEmail.addEventListener('input', () => {
     const emailValue = inputEmail.value.trim();
     const errorContainer = document.getElementById('error-email');
   
     // Validar si el campo está vacío
     if (!emailValue) {
       errorContainer.innerText = 'El E-Mail es requerido.';
+      emailValido = false;
       return;
     }
-
+  
     // Validar formato de correo electrónico
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(emailValue)) {
@@ -121,7 +125,8 @@ inputEmail.addEventListener('blur', () => {
     // Si todas las validaciones pasaron, vaciar el mensaje de error
     errorContainer.innerText = '';
     emailValido = true;
-});
+  });
+  
 
 
 
@@ -162,25 +167,28 @@ inputAsunto.addEventListener('blur', () => {
     indicadorAsunto.style.height = originalIndicadorHeight;
 });
 
-// Campo Asunto - Validacion de entradas
-inputAsunto.addEventListener('blur', () => {
-    const nombreValue = inputAsunto.value.trim();
+// Campo Asunto - Validacion de entradas en tiempo real
+inputAsunto.addEventListener('input', () => {
+    const asuntoValue = inputAsunto.value.trim();
     const errorContainer = document.getElementById('error-asunto');
   
     // Validar si el campo está vacío
-    if (!nombreValue) {
+    if (!asuntoValue) {
       errorContainer.innerText = 'El asunto es requerido.';
+      asuntoValido = false;
       return;
     }
   
     // Validar si el campo excede los 50 caracteres
-    if (nombreValue.length > 50) {
+    if (asuntoValue.length > 50) {
       errorContainer.innerText = 'No puede tener más de 50 caracteres.';
+      asuntoValido = false;
       return;
     }
   
     // Si todas las validaciones pasaron, vaciar el mensaje de error
     errorContainer.innerText = '';
+    asuntoValido = true;
 });
 
 
@@ -230,37 +238,43 @@ inputMensaje.addEventListener('scroll', () => {
     }
 });
 
-// Campo Mensaje - Validacion de entradas
-inputMensaje.addEventListener('blur', () => {
+// Campo Mensaje - Validacion de entradas en tiempo real
+inputMensaje.addEventListener('input', () => {
     const nombreValue = inputMensaje.value.trim();
     const errorContainer = document.getElementById('error-mensaje');
   
     // Validar si el campo está vacío
     if (!nombreValue) {
       errorContainer.innerText = 'El mensaje es requerido.';
+      mensajeValido = false;
       return;
     }
   
     // Validar si el campo excede los 50 caracteres
     if (nombreValue.length > 300) {
       errorContainer.innerText = 'No puede tener más de 300 caracteres.';
+      mensajeValido = false;
       return;
     }
   
     // Si todas las validaciones pasaron, vaciar el mensaje de error
     errorContainer.innerText = '';
+    mensajeValido = true;
 });
 
 // Botón Enviar - Activar solo cuando todos los campos están llenos
 const form = document.getElementById('section-contacto__form');
 const enviarBtn = document.querySelector('.section-contacto__container-campos__boton');
 let emailValido = false;
+let nombreValido = false;
+let asuntoValido = false;
+let mensajeValido = false;
 
 form.addEventListener('input', () => {
     const inputs = form.querySelectorAll('input, textarea');
     const emptyInputs = [...inputs].filter(input => !input.value.trim());
     
-    if (emptyInputs.length === 0 && emailValido) {
+    if (emptyInputs.length === 0 && nombreValido && emailValido && asuntoValido && mensajeValido) {
       enviarBtn.disabled = false;
       enviarBtn.classList.remove("section-contacto__container-campos__boton__deshabilitado");
       if (!enviarBtn.classList.contains("section-contacto__container-campos__boton__habilitado")) {

@@ -1,0 +1,248 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-experiencia-profesional__container-lista__airbnb{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2vw;
+        padding-bottom: 10vw;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 4.6vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__img{
+        width: 83vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__container{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding-top: 2vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__descripcion{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 5vw;
+        color: #464646;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__botones{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 3vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-perfil{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 35vw;
+        height: 13vw;
+        border: .4vw solid #2A7AE4;
+
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 4vw;
+        color: #2A7AE4;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-perfil:hover{
+        background-color: lightgrey;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-anuncio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 35vw;
+        height: 13vw;
+        background: #2A7AE4;
+
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 4vw;
+        color: #FFFFFF;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-anuncio:hover{
+        background-color: blue;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-experiencia-profesional__container-lista__airbnb{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 3vw;
+        padding-bottom: 7vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__img{
+        width: 90vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__container{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding-top: 2vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__descripcion{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 0;
+        color: #464646;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__botones{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2vw;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-perfil{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 15vw;
+        height: 6vw;
+        border: .1vw solid #2A7AE4;
+
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 2vw;
+        color: #2A7AE4;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-perfil:hover{
+        background-color: lightgrey;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-anuncio{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 15vw;
+        height: 6vw;
+        background: #2A7AE4;
+
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 2vw;
+        color: #FFFFFF;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-anuncio:hover{
+        background-color: blue;
+    }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-experiencia-profesional__container-lista__airbnb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 19px;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__img{
+        width: 55%;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__container{
+        display: flex;
+        flex-direction: column;
+        width: 368px;
+        gap: 10px;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__descripcion{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #464646;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__botones{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-perfil{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        border: 1px solid #2A7AE4;
+
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+        color: #2A7AE4;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-perfil:hover{
+        background-color: lightgrey;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-anuncio{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        background: #2A7AE4;
+
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .section-experiencia-profesional__container-lista__airbnb__boton-anuncio:hover{
+        background-color: blue;
+    }
+}

@@ -1,0 +1,141 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-contacto__container-campos__mensaje__label{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        padding: 7vw 0 0 2vw;
+
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 5vw;
+        color: #A2A2A2;
+    }
+
+    #section-contacto__container-campos__mensaje__textarea{
+        width: 85vw;
+        height: 30vw;
+        background: #FFFFFF;
+        resize: none;
+        outline: none;
+        border: none;
+        border-radius: 2vw 2vw 0 0;
+        padding: 7vw 3vw 0 2vw;
+
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 5vw;
+        color: #464646;
+    }
+
+    .section-contacto__container-campos__mensaje__validador{
+        font-family: 'Raleway';
+        font-style: italic;
+        display: flex;
+        position: relative;
+        padding-top: .5vw;
+        color: red;
+    }
+
+    .section-contacto__container-campos__mensaje__indicador{
+        position: relative;
+        height: .4vw;
+        background: #C8C8C8;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-contacto__container-campos__mensaje__label{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        padding: 25px 0 0 10px;
+
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 16px;
+        color: #A2A2A2;
+    }
+
+    #section-contacto__container-campos__mensaje__textarea{
+        width: 88vw;
+        height: 150px;
+        background: #FFFFFF;
+        outline: none;
+        border: none;
+        border-radius: 5px 5px 0 0;
+        padding: 30px 10px 0 10px;
+        resize: none;
+
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #464646;
+    }
+
+    .section-contacto__container-campos__mensaje__validador{
+        font-family: 'Raleway';
+        font-style: italic;
+        display: flex;
+        position: relative;
+        padding-top: .5vw;
+        color: red;
+    }
+
+    .section-contacto__container-campos__mensaje__indicador{
+        position: relative;
+        height: 1px;
+        background: #C8C8C8;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-contacto__container-campos__mensaje__label{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        padding: 25px 0 0 10px;
+
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 16px;
+        color: #A2A2A2;
+    }
+
+    #section-contacto__container-campos__mensaje__textarea{
+        width: 55vw;
+        height: 94px;
+        background: #FFFFFF;
+        outline: none;
+        border: none;
+        border-radius: 5px 5px 0 0;
+        padding: 30px 10px 0 10px;
+        resize: none;
+
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #464646;
+    }
+
+    .section-contacto__container-campos__mensaje__validador{
+        font-family: 'Raleway';
+        font-style: italic;
+        display: flex;
+        position: relative;
+        padding-top: .5vw;
+        color: red;
+    }
+
+    .section-contacto__container-campos__mensaje__indicador{
+        position: relative;
+        height: 1px;
+        background: #C8C8C8;
+    }
+}

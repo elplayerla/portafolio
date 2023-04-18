@@ -1,0 +1,58 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 30vw;
+        background: #FFFFFF;
+
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 5vw;
+        line-height: 5vw;
+        text-align: center;
+        color: #464646;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        height: 102px;
+        background: #FFFFFF;
+
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 28px;
+        text-align: center;
+        color: #464646;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 102px;
+        padding: 0;
+        background: #FFFFFF;
+
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #464646;
+    }
+}

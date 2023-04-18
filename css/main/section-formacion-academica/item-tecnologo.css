@@ -1,0 +1,123 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-formacion-academica__container-lista__tecnologo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2vw;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 4.6vw;
+        line-height: 5vw;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__fondo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4vw;
+        margin-bottom: 1vw;
+        gap: 2vw;
+        width: 75vw;
+        height: 25vw;
+        background: #FFFFFF;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__img{
+        width: 18vw;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__anio-universidad{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 5vw;
+        color: #464646;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-formacion-academica__container-lista__tecnologo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 28vw;
+        gap: 1vw;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 1.5vw;
+        line-height: 0;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__titulo{
+        padding-top: 9px;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__fondo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vw;
+        gap: 2vw;
+        width: 24vw;
+        height: 13vw;
+        margin-bottom: 1vw;
+        background: #FFFFFF;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__img{
+        width: 9vw;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__anio-universidad{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+        padding-top: 1vw;
+        color: #464646;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-formacion-academica__container-lista__tecnologo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 28vw;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 1.5vw;
+        line-height: 3vw;
+        gap: 0;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__fondo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vw;
+        margin-bottom: 1vw;
+        gap: 2vw;
+        width: 24vw;
+        height: 18vw;
+        background: #FFFFFF;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__img{
+        width: 50%;
+    }
+
+    .section-formacion-academica__container-lista__tecnologo__anio-universidad{
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 1.7vw;
+        color: #464646;
+    }
+}

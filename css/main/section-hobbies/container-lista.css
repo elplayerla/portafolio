@@ -1,0 +1,35 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-hobbies__container-lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+        gap: 5vw;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-hobbies__container-lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+        gap: 3vw;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-hobbies__container-lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1vw;
+        margin-bottom: 50px;
+        justify-content: center; 
+    }
+}

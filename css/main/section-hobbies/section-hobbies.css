@@ -1,0 +1,32 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vw;
+        gap: 5vw;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vw;
+        gap: 5vw;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 36px 25vw 36px 25vw;
+        gap: 3vw;
+    }
+}

@@ -1,0 +1,116 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-contacto__container-campos__boton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        width: 144px;
+        height: 51px;
+        background: #e0e0e0;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #a8a8a8;
+        pointer-events: none;
+    }
+
+    .section-contacto__container-campos__boton__habilitado{
+        background: #2A7AE4;
+        color: #FFFFFF;
+        pointer-events: all;
+    }
+
+    .section-contacto__container-campos__boton:hover{
+        background: blue;
+    }
+
+    .section-contacto__container-campos__boton__deshabilitado{
+        background-color: #e0e0e0;
+        color: #a8a8a8;
+        cursor: default;
+        pointer-events: none;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-contacto__container-campos__boton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        width: 144px;
+        height: 51px;
+        background: #e0e0e0;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #a8a8a8;
+        pointer-events: none;
+    }
+
+    .section-contacto__container-campos__boton__habilitado{
+        background: #2A7AE4;
+        color: #FFFFFF;
+        pointer-events: all;
+    }
+
+    .section-contacto__container-campos__boton:hover{
+        background: blue;
+    }
+
+    .section-contacto__container-campos__boton__deshabilitado{
+        background-color: #e0e0e0;
+        color: #a8a8a8;
+        cursor: default;
+        pointer-events: none;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-contacto__container-campos__boton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        width: 144px;
+        height: 51px;
+        background: #e0e0e0;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #a8a8a8;
+        pointer-events: none;
+    }
+
+    .section-contacto__container-campos__boton__habilitado{
+        background: #2A7AE4;
+        color: #FFFFFF;
+        pointer-events: all;
+    }
+
+    .section-contacto__container-campos__boton:hover{
+        background: blue;
+    }
+
+    .section-contacto__container-campos__boton__deshabilitado{
+        background-color: #e0e0e0;
+        color: #a8a8a8;
+        cursor: default;
+        pointer-events: none;
+    }
+}

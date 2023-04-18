@@ -1,0 +1,61 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-yo__container-links__link-instagram{
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: auto;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4vw;
+        line-height: 16px;
+        text-decoration: none;
+
+        /* Preto/100% */
+        color: #464646;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .section-yo__container-links__link-instagram img {
+        margin-left: 5px;
+        width: 3vw;
+    }
+}
+  
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-yo__container-links__link-instagram{
+        display: flex;  
+        font-family: 'Raleway';
+        font-size: 2.2vw;
+        text-decoration: none;
+        color: #464646;
+    }
+
+    .section-yo__container-links__link-instagram img {
+        margin-left: 10px;
+        width: 1.8vw;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-yo__container-links__link-instagram{
+        display: flex;  
+        font-family: 'Raleway';
+        font-size: 1.5vw;
+        text-decoration: none;
+        color: #464646;
+    }
+
+    .section-yo__container-links__link-instagram img {
+        margin-left: .5vw;
+        width: 1.3vw;
+    }
+}

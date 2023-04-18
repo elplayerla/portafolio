@@ -1,0 +1,50 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-contacto__descripcion{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.7vw;
+        line-height: 6vw;
+        padding: 3vw 0 10vw 0;
+        color: #464646;
+    }
+
+    .section-contacto__img{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-contacto__descripcion{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.2vw;
+        line-height: 3vw;
+        padding: 1vw 0 5vw 0;
+        color: #464646;
+    }
+
+    .section-contacto__img{
+        display: none;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-contacto__descripcion{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4vw;
+        line-height: 1.5vw;
+        padding-bottom: 2.5vw;
+        color: #464646;
+    }
+
+    .section-contacto__img{
+        display: flex;
+    }
+}

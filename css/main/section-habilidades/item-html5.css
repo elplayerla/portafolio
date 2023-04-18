@@ -1,0 +1,76 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 768px) {
+    .section-habilidades__container-lista__html5{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 5vw;
+        gap: 2vw;
+        border-radius: 3vw;
+        width: 32.5vw;
+        height: 20vw;
+        background: #FFFFFF;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4vw;
+        color: #464646;
+    }
+
+    .svg-inline--fa {
+        font-size: 50px;
+        color: #2a7ae4;
+    }
+}
+  
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section-habilidades__container-lista__html5{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 2vw;
+        gap: 1vw;
+        border-radius: 1vw;
+        width: 24vw;
+        height: 15vw;
+        background: #FFFFFF;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 2vw;
+        color: #464646;
+    }
+
+    .svg-inline--fa {
+        font-size: 50px;
+        color: #2a7ae4;
+    }
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+    .section-habilidades__container-lista__html5{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 2vw;
+        gap: 1vw;
+        border-radius: 1vw;
+        width: 9.5vw;
+        height: 9.5vw;
+        background: #FFFFFF;
+
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 1.5vw;
+        color: #464646;
+    }
+
+    .svg-inline--fa {
+        font-size: 50px;
+        color: #2a7ae4;
+    }
+}
